@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# Loading the trained model
+
 model = joblib.load('medical_cost_model.pkl')
 
-# main function
+
 def main():
     st.title("Medical Insurance Cost Prediction")
 
